@@ -2,8 +2,6 @@
 
 > A clean and dynamic weather forecast web app that gives you real-time weather updates for any location on Earth. Built using the **Visual Crossing Weather API**, with support for both Celsius and Fahrenheit temperature display.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/singharyan006/skywatch?color=blue&style=flat-square)
-
 ---
 
 ## 🚀 Live Demo
@@ -61,7 +59,7 @@ skywatch/
 ├── LICENSE
 └── assets/
     ├── preview.png
-    ├── favicon.png
+    ├── favicon.ico
     └── background.jpg
 ```
 
@@ -90,4 +88,4 @@ skywatch/
 ---
 
 ## 📜 License
-[MIT License](license)
+Licensed under the [MIT License](LICENSE).
