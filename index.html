@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SKYWATCH</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <img src="assets/favicon.ico" alt="logo">
+    <span>SKYWATCH</span>
+  </header>
+  <div class="header">
+    <h1>Welcome to  
+      <span>SKYWATCH</span></h1>
+    <h2>Feed the location to know it's weather forecast</h2>
+  </div>
+    <div id="app">
+    <form id="weather-form">
+      <input type="text" id="location-input" placeholder="Enter location" required />
+      <button type="submit">Get Weather</button>
+      <label>
+        <input type="checkbox" id="unit-toggle" />
+        Show in Celsius
+      </label>
+    </form>
+
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="weather-display"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
